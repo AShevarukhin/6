@@ -1,0 +1,7 @@
+n=int(input("Введите количество чисел"))
+a = list(map(int, input().split()))[:n]
+D=set(a)
+print(len(D))
+
+   
+
